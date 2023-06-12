@@ -17,7 +17,7 @@ public class ClienteFacturacion {
             salida.println(solicitud);
 
             String respuesta = entrada.readLine();
-            System.out.println("Respuesta desde el servidor : " + respuesta);
+            System.out.println("Respuesta del servidor : " + respuesta);
         } catch (IOException e) {
             e.printStackTrace();
         }
